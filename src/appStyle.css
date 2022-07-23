@@ -5,17 +5,19 @@
         transform: rotateZ(360deg);    
     }
 }
-
+body{
+    overflow: hidden;
+}
 .App{
     display: flex;
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
+    width: 100vw;
     align-items: center;
 }
 .App .container{
     position: relative;
-    max-width: 500px;
-    max-height: 500px;
+    background-color: red;
 }
 
 .App  .container .poly{
