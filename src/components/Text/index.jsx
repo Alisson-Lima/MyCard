@@ -1,3 +1,4 @@
+import "./style.css"
 export function Text(){
     return (
         <div className="textContainer">
