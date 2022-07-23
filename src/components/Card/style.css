@@ -1,0 +1,17 @@
+.card{
+    position: relative;
+    width: 340px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 450px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
