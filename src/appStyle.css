@@ -44,7 +44,6 @@ body{
     animation-delay: 2s;
 }
 .App .container .poly:nth-child(4){
-    transform: rotateZ(90deg);
     width: 150px;
     right: -80px;
     bottom: -90px;
