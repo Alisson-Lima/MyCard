@@ -1,6 +1,6 @@
 .card{
     position: relative;
-    width: 340px;
+    width: 300px;
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
     border: 2px solid white;
@@ -8,9 +8,16 @@
     padding: 30px;
     box-sizing: border-box;
     text-align: center;
-    height: 450px;
+    height: 420px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+@media screen and (min-width: 800px) {
+    .card{
+        width: 350px;
+        height: 470px;
+    }
 }
